@@ -2,44 +2,46 @@
 
 ## Background
 
-This capstone project simulates a business analytics request from an executive team that needs a Power BI report for monitoring sales and market performance.
+This capstone project simulates a business analytics request from an e-commerce team that needs a Power BI report for monitoring website traffic, marketing channel performance, order conversion, product revenue, gross profit, and refunds.
 
-The business does not only need raw sales numbers. It needs an analytical report that can explain sales movement, product and manufacturer contribution, regional performance, and market share patterns in a way that supports faster business review.
+The business does not only need raw order numbers. It needs an analytical report that can explain how website visitors move through the funnel from sessions and pageviews into orders, which marketing channels perform best, which products generate the strongest business value, and where refund activity may reduce net performance.
 
 ## Business Problem
 
-Management needs a single Power BI dashboard that can summarize sales and market performance across multiple business dimensions.
+Management needs a single Power BI dashboard that can summarize e-commerce performance across multiple business dimensions.
 
 The dashboard should help answer:
 
-- where sales are performing well,
-- where performance is weaker,
-- which manufacturers or products contribute the most,
-- how market share changes over time,
+- how website traffic changes over time,
+- which traffic sources, campaigns, and devices generate stronger results,
+- how many sessions convert into orders,
+- which products contribute the most revenue and gross profit,
+- how refunds affect product and revenue performance,
 - and which areas deserve further business attention.
 
 ## Objective
 
-Build an end-to-end Power BI analytical solution using the Microsoft Sales and Marketing Sample dataset.
+Build an end-to-end Power BI analytical solution using the Maven Fuzzy Factory e-commerce dataset.
 
 The solution should include clean data preparation, structured modeling, reusable DAX measures, interactive visuals, and business insights that can be understood by non-technical stakeholders.
 
 ## Key Business Questions
 
-1. How does sales performance change over time?
-2. Which regions or markets generate stronger sales performance?
-3. Which manufacturers, products, or categories contribute the most to sales?
-4. How does market share vary across time and business segments?
-5. What business recommendations can be derived from the dashboard findings?
+1. How does traffic, order volume, and revenue change over time?
+2. Which marketing channels drive the strongest business performance?
+3. How does conversion rate differ by traffic source, campaign, and device type?
+4. Which products generate the highest revenue and gross profit?
+5. How do refunds impact product and revenue performance?
+6. What recommendations can improve conversion, marketing efficiency, and product profitability?
 
 ## Expected Users
 
 | User | Need |
 |---|---|
-| Executive team | High-level KPI overview and performance summary |
-| Sales manager | Regional and product-level sales performance |
-| Marketing team | Market share and opportunity identification |
-| Business analyst | Deeper analysis using filters, interactions, and DAX-based metrics |
+| Executive team | High-level KPI overview and business performance summary |
+| Marketing team | Traffic source, campaign, device, and conversion performance |
+| Product team | Product-level revenue, gross profit, and refund impact |
+| Business analyst | Deeper analysis using filters, interactions, relationships, and DAX-based metrics |
 
 ## Scope
 
