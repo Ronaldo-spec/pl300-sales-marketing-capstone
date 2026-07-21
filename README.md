@@ -1,4 +1,4 @@
-# PL-300 Sales and Marketing Capstone
+# PL-300 E-Commerce Sales and Marketing Capstone
 
 Power BI capstone project using the **Maven Fuzzy Factory e-commerce dataset** to analyze website traffic, marketing channel performance, conversion rate, product revenue, gross profit, and refund impact.
 
