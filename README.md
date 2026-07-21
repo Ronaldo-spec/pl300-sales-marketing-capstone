@@ -1,6 +1,6 @@
 # PL-300 Sales and Marketing Capstone
 
-Power BI capstone project using the **Microsoft Sales and Marketing Sample** dataset to analyze sales performance, market share, regional performance, manufacturer contribution, and executive-level business insights.
+Power BI capstone project using the **Maven Fuzzy Factory e-commerce dataset** to analyze website traffic, marketing channel performance, conversion rate, product revenue, gross profit, and refund impact.
 
 This repository is built progressively through real project commits. Each commit should represent an actual completed step in the capstone work.
 
@@ -8,9 +8,9 @@ This repository is built progressively through real project commits. Each commit
 
 ## Business Context
 
-The business team needs an interactive Power BI report to monitor sales and market performance across products, manufacturers, regions, and time periods.
+The business team needs an interactive Power BI report to monitor the performance of an e-commerce website across traffic sources, campaigns, devices, products, orders, revenue, profit, and refunds.
 
-The dashboard is expected to help business users answer practical questions such as where sales are strong, which manufacturers or products contribute the most, how market share changes, and which areas need further attention.
+The dashboard is expected to help business users understand how website traffic turns into orders, which marketing channels generate stronger business outcomes, which products contribute the most revenue and profit, and where performance issues such as low conversion or refunds need attention.
 
 ---
 
@@ -18,20 +18,21 @@ The dashboard is expected to help business users answer practical questions such
 
 | Item | Description |
 |---|---|
-| Dataset | Microsoft Sales and Marketing Sample |
-| File | `Sales and Marketing Sample-no-PV.xlsx` |
-| Source format | Excel workbook |
-| Analysis domain | Sales, market share, product, manufacturer, region, and time-based performance |
+| Dataset | Maven Fuzzy Factory e-commerce dataset |
+| Source files | `website_sessions.csv`, `website_pageviews.csv`, `orders.csv`, `order_items.csv`, `order_item_refunds.csv`, `products.csv` |
+| Source format | CSV multi-table relational dataset |
+| Analysis domain | Website traffic, marketing channels, conversion, product sales, revenue, gross profit, and refunds |
 
 ---
 
 ## Initial Business Questions
 
-1. How does sales performance change over time?
-2. Which manufacturers, products, or categories contribute the most to sales?
-3. Which regions or markets show stronger or weaker performance?
-4. How does market share vary across time and business segments?
-5. What business insights can be translated into recommendations for decision makers?
+1. How does traffic, order volume, and revenue change over time?
+2. Which marketing channels drive the strongest business performance?
+3. How does conversion rate differ by traffic source, campaign, and device type?
+4. Which products generate the highest revenue and gross profit?
+5. How do refunds impact product and revenue performance?
+6. What recommendations can improve conversion, marketing efficiency, and product profitability?
 
 ---
 
@@ -46,4 +47,4 @@ The dashboard is expected to help business users answer practical questions such
 
 ## Project Status
 
-Initial business context and scenario have been documented. The raw workbook, Power BI file, transformation steps, data model, DAX measures, dashboard screenshots, and final insights will be added through later commits as the work is completed.
+Initial business context and scenario have been updated to match the Maven Fuzzy Factory e-commerce dataset. The analytical direction now focuses on website traffic, marketing channel performance, conversion, product performance, and refund impact.
