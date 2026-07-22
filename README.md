@@ -2,7 +2,7 @@
 
 Power BI capstone project using the **Maven Fuzzy Factory e-commerce dataset** to analyze website traffic, marketing channel performance, conversion rate, product revenue, gross profit, and refund impact.
 
-This repository is built progressively through real project commits. Each commit should represent an actual completed step in the capstone work.
+This repository is built progressively through real project commits. Each commit represents an actual completed step in the capstone work.
 
 ---
 
@@ -36,15 +36,42 @@ The dashboard is expected to help business users understand how website traffic 
 
 ---
 
+## Report Pages
+
+The current Power BI report contains:
+
+1. Executive Summary
+2. Product Analysis
+3. Marketing Channel Analysis
+4. Product Drillthrough
+5. Tooltip Product
+
+The report also includes slicers, drillthrough, tooltip, bookmark-based view switching, and row-level security by marketing source.
+
+---
+
 ## Current Repository Content
 
 | Path | Description |
 |---|---|
-| `README.md` | Project overview, business context, dataset summary, and initial business questions |
+| `README.md` | Project overview, business context, dataset summary, report scope, and documentation index |
+| `data/raw/` | Raw Maven Fuzzy Factory CSV dataset files |
+| `powerbi/pbix/pl300_ecommerce_capstone.pbix` | Power BI report file |
 | `docs/business-scenario.md` | Detailed background and business scenario |
+| `docs/data-understanding.md` | Dataset structure, table roles, and grain explanation |
+| `docs/power-query-notes.md` | Import method, preparation steps, and cleanup notes |
+| `docs/data-model.md` | Data model, relationships, Date table, and modeling decisions |
+| `docs/dax-measures.md` | DAX measure catalog and validation checklist |
+| `docs/dashboard-summary.md` | Report page summary, visuals, and interactions |
+| `docs/insights-and-recommendations.md` | Preliminary insights and recommendation themes |
+| `docs/limitations.md` | Dataset limitations, assumptions, and final review checklist |
 
 ---
 
 ## Project Status
 
-Initial business context and scenario have been updated to match the Maven Fuzzy Factory e-commerce dataset. The analytical direction now focuses on website traffic, marketing channel performance, conversion, product performance, and refund impact.
+The project has progressed from dataset selection and import into initial Power BI modeling, core DAX measures, draft report pages, tooltip, drillthrough, bookmark navigation, and RLS by `utm_source`.
+
+The documentation set has been added to describe the dataset, Power Query preparation, data model, DAX measures, dashboard pages, preliminary insights, and limitations.
+
+Before the final portfolio version, the report should still be validated and polished, especially product-level refund filtering, blank source labels, visual naming, final screenshots, and final business recommendations.
